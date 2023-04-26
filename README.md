@@ -1,5 +1,5 @@
 # World Weather Analysis
-UC Berkeley Extension Data Analytics Boot Camp Module 6
+
 
 ---
 ## Analysis:
@@ -10,7 +10,7 @@ In this challenge, we were tasked with using Google Maps API data to generage a 
 
 To determine a vacation plan, we first generated a list of random cities and extracted weather data for them from OpenWeatherMap.com. From there, we saved the data into a CSV file that would later be used to determine cities that we could visit on vacation.
 
-<br />
+
 
 #### Part 2: Have Customers Narrow Their Travel Searches Based on Temperature and Precipitation
 
@@ -20,7 +20,7 @@ In order to ensure that a customer is able to plan a vacation that is ideal for 
 
 In the challenge, we were asked how many cities reported rainfall or snowfall. At the time of my analysis, there were 72 cities with rainfall, and 0 with snowfall. 
 
-<br />
+
 
 In order to determine an enjoyable travel route, I chose the following parameters as my travel preferences:
 - Minimum temperature: 60 degrees Farenheit
@@ -28,12 +28,12 @@ In order to determine an enjoyable travel route, I chose the following parameter
 - Open to rainfall
 - Opted to not consider any cities with snowfall
 
-<br />
+
 
 Here is the final map of cities that fit this criteria:
 ![Map Of Cities With Desired Weather Conditions](images/WeatherPy_Vacation_Map.png)
 
-<br />
+
 
 #### Part 3: Create a Travel Itinerary with a Corresponding Map
 
